@@ -10,13 +10,13 @@ Documentação da API: https://fakestoreapi.com/docs
 
 ## Requisitos
 
-- Gerar um arquivo com um dos seguintes formatos: Parquet, CSV, AVRO ou JSON que deve contar as seguintes informações  
+Gerar um arquivo com um dos seguintes formatos: Parquet, CSV, AVRO ou JSON que deve contar as seguintes informações:  
 1. identificador de usuário
 2. data mais recente em que o usuário adicionou produtos ao carrinho
 3. categoria em que o usuário tem mais produtos adicionados ao carrinho
 
 ## Linguagem de programação
-Para realizar esse teste usei Python e as biblioteca Pandas e requests.
+Para realizar esse teste usei python e as biblioteca pandas e requests.
 
 ## Processo
 Ao analisar a documentação da API, decidi usar os endpoints carts e products.  
